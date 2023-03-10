@@ -1,0 +1,92 @@
+/* fontes */
+
+@font-face {
+    font-family: titillium;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: inter;
+    src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: quicksand;
+    src: url(../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+/* reset */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* layout grid */
+
+.layout-grid {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* formatacao de fontes */
+
+h1 {
+    font-family: titillium;
+    font-size: 80px;
+    color: #ffff;
+    text-shadow: #FD4255;
+}
+
+ p {
+    font-family: inter;
+    font-size: 14px;
+    color: #ffff;
+ }
+
+/* section header */
+
+ .header {
+    background-color: #1B1426;
+
+    height: 60px;
+ }
+
+ .align-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ /* header top */
+
+ .header-top {
+    display: none;
+ }
+
+ /* header bottom */
+ 
+ header .header-bottom img#menu-burguer {
+    width: 30px;
+    height: 30px;
+ }
+
+ header .header-bottom img#logo {
+    width: 86px;
+    height: 25px;
+ }
+
+ header .header-bottom img#pontos {
+    width: 30px;
+    height: 10px;
+ }
+
+ header .header-bottom nav {
+    display: none;
+ }
+
+ header .header-bottom .iconsmore {
+    display: none;
+ }
