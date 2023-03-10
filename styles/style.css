@@ -46,6 +46,12 @@ h1 {
     color: #ffff;
  }
 
+ header .header-bottom nav a {
+    font-family: inter;
+    font-size: 14px;
+    color: #ffff;
+ }
+
 /* section header */
 
  .header {
@@ -55,6 +61,8 @@ h1 {
  }
 
  .align-center {
+    width: 100%;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -84,7 +92,17 @@ h1 {
  }
 
  header .header-bottom nav {
-    display: none;
+    display: flex;
+    flex-direction: column;
+
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 80vw;
+    height: calc(100vh-60px);
+
+    border: 1px solid white;
+    background-color: #1B1426;
  }
 
  header .header-bottom .iconsmore {
