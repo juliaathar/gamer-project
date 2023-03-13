@@ -39,9 +39,10 @@
                 <div class="layout-grid">
 
                     <div class="icons align-center">
-                        <img id="menu-burguer" src="../projeto-gamer/images/menu-hamburguer.svg" alt="">
+                        <img id="menu-burguer" src="../projeto-gamer/images/menu-hamburguer.svg" alt=""
+                            onclick="Mostrarmais">
                         <img id="logo" src="../projeto-gamer/images/logotipo-gamer.png" alt="">
-                        <img id="pontos" src="../projeto-gamer/images/pontinhos.svg" alt="">
+                        <img id="pontos" src="../projeto-gamer/images/pontinhos.svg" alt="" onclick="Mostrarmenu">
                     </div>
 
                 </div>
@@ -51,21 +52,42 @@
                     <a href="">Jogadores</a>
                     <a href="">Equipes</a>
                     <a href="">Notícias</a>
+
+                    <div class="contatos">
+                        <img id="phone" src="../projeto-gamer/images/icone_telefone.svg" alt="">
+                        <p>(11) 0900-1010</p>
+
+                        <img src="../projeto-gamer/images/icone_email.svg" alt="">
+                        <p>contato@gamer.com.br</p>
+                    </div>
+
+                    <div class="redes">
+                        <a href=""><img src="../projeto-gamer/images/facebook.svg" alt=""></a>
+                        <a href=""><img src="../projeto-gamer/images/linkedin.svg" alt=""></a>
+                        <a href=""><img src="../projeto-gamer/images/instagram.svg" alt=""></a>
+                    </div>
+
+                    <div class="iconsmore">
+                        <a href=""><img id="user" src="../projeto-gamer/images/user.svg" alt=""></a>
+                        <a href=""><img id="shop" src="../projeto-gamer/images/shop.svg" alt=""></a>
+                        <a href=""><img id="search" src="../projeto-gamer/images/search.svg" alt=""></a>
+                    </div>
+
                 </nav>
-
-                <div class="iconsmore">
-                    <img id="user" src="../projeto-gamer/images/user.svg" alt="">
-                    <img id="shop" src="../projeto-gamer/images/shop.svg" alt="">
-                    <img id="search" src="../projeto-gamer/images/search.svg" alt="">
-                </div>
-
             </div>
 
         </section>
+
     </header>
 
     <!-- corpo principal -->
     <main>
+
+        <section class="banner">
+            <div class="banner-main">
+                <img src="../projeto-gamer/images/img-main.png" alt="">
+            </div>
+        </section>
 
     </main>
 
@@ -73,6 +95,12 @@
     <footer>
 
     </footer>
+
+    <script>
+        function Mostrarmenu() {
+            document.getElementById("iconsmore").classList.toggle("Mostrarmenu");
+        }
+    </script>
 
 </body>
 
