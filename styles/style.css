@@ -172,7 +172,6 @@ header .header-bottom img#pontos {
 header .header-bottom .iconsmore {
    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
    backdrop-filter: blur(10px);
-   transition: right 0.4s;
 
    position: fixed;
    top: 60px;
