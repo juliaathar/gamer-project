@@ -92,20 +92,37 @@ header .icons {
    align-items: center;
 }
 
+header #cttphone {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+header #cttmail {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
 header .header-bottom nav {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
 
-   position: fixed;
+   position: absolute;
    top: 60px;
-   left: 0;
+   left: -300px;
+   z-index: 20;
    width: 80vw;
    height: calc(100vh-60px);
    padding-bottom: 20px;
 
    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
    backdrop-filter: blur(10px);
+
+   transition: left 0.4s;
 }
 
 header .header-bottom nav > a {
@@ -120,6 +137,17 @@ header .header-bottom nav > a {
    text-decoration: none;
 
    padding: 30px 0;
+}
+
+header .header-bottom nav > a:last-of-type {
+   border-bottom: none;
+}
+
+header .header-bottom nav .midias {
+   display: flex;
+   justify-content: center;
+   /* gap é o espaçamento entre os elementos */
+   gap: 50px;
 }
 
 /* images config */
@@ -142,7 +170,9 @@ header .header-bottom img#pontos {
 /* side nav menus */
 
 header .header-bottom .iconsmore {
-   background-color: #1b1426;
+   background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+   backdrop-filter: blur(10px);
+   transition: right 0.4s;
 
    position: fixed;
    top: 60px;
@@ -159,8 +189,12 @@ header .header-bottom .iconsmore {
    position: fixed;
 }
 
-.Mostrarmenu {
-   right: 0;
+.mostrar-menu {
+   left: 0 !important;
+} 
+
+.mostrar-mais {
+   right: 0 !important;
 }
 
 /* banner main */
