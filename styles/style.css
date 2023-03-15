@@ -53,6 +53,15 @@ h1 {
    justify-content: center;
 }
 
+h2 {
+   font-family: titillium;
+   font-size: 18px;
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #1B1426;
+
+   text-align: center;
+}
 
 p {
    font-family: inter;
@@ -92,7 +101,6 @@ header .header-bottom nav a {
 }
 
 /* header bottom */
-
 header .icons {
    width: 100%;
    height: 60px;
@@ -200,7 +208,7 @@ header .header-bottom .iconsmore {
    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
    backdrop-filter: blur(10px); 
    
-   position: fixed;
+   position: absolute;
    top: 60px;
    right: -80px;
    flex-direction: column;
@@ -213,8 +221,6 @@ header .header-bottom .iconsmore {
    align-items: center;
    
    transition: right 0.2s;
-   
-   position: fixed;
 }
 
 .mostrar-menu {
@@ -291,3 +297,70 @@ main .jogos .jogosimg #fifa #csgo {
    height: 189px;
 }
 
+/* ---------------------------------- SECTION PROGAMER ----------------------------- */
+ main .progamer {
+   width: 100%;
+   height: 1535px;
+
+   background-color: #F9AA01;
+ }
+
+ main .progamer #killjoy {
+   width: 314px;
+   height: 511px;
+ }
+
+ main .progamer #jinx {
+   width: 322px;
+   height: 428px;
+ }
+
+ main .aboutprogamer .progamer .h1gamer {
+   width: 336px;
+   height: 62px;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   justify-content: space-around;
+ }
+
+ /* --------------------------------- MEDIA QUERIES -------------------------------------- */
+
+ /* tablets */
+
+ @media screen and (min-width:768px) {
+   
+ }
+
+ /* desktops */
+
+ @media screen and (min-width:1200px) {
+   .layout-grid {
+      width: 100%;
+      max-width: 1200px;
+
+      border: red solid 2px;
+   }
+
+   header {
+      position: static;
+      height: 140px;
+   }
+
+   header #menu-burguer,
+   header #pontos,
+   header .header-bottom nav #phone,
+   header .header-bottom nav #mail,
+   header .header-bottom nav .midias {
+      display: none;
+   }
+
+   header .header-bottom img#logo {
+      width: 200px;
+   }
+
+   main {
+      margin-top: 0;
+   }
+ }
