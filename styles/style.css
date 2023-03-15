@@ -28,7 +28,7 @@
    box-sizing: border-box;
 }
 
-/* layout grid */
+/* layout grid / formatacao geral */
 
 .layout-grid {
    width: 90%;
@@ -66,7 +66,7 @@ header .header-bottom nav a {
    color: #ffff;
 }
 
-/* section header */
+/* --------------------------- SECTION HEADER ------------------------------------- */
 
 .header {
    background-color: #1B1426;
@@ -116,18 +116,6 @@ header #cttmail {
    align-items: center;
 }
 
-header #mail {
-   width: 21px;
-   height: 21px;
-   margin-right: 17px;
-}
-
-header #phone {
-   width: 19px;
-   height: 18px;
-   margin-right: 17px;
-}
-
 header .header-bottom nav {
    display: flex;
    flex-direction: column;
@@ -172,7 +160,7 @@ header .header-bottom nav .midias {
    gap: 50px;
 }
 
-/* images config */
+/* ------------------------------- IMAGES CONFIG ---------------------------------- */
 
 header .header-bottom img#menu-burguer {
    width: 30px;
@@ -189,7 +177,24 @@ header .header-bottom img#pontos {
    height: 10px;
 }
 
-/* side nav menus */
+header img#mail {
+   width: 21px;
+   height: 21px;
+   margin-right: 17px;
+}
+
+header img#phone {
+   width: 19px;
+   height: 18px;
+   margin-right: 17px;
+}
+
+header.header-bottom .iconsmore #user #shop #search {
+   width: 20px;
+   height: 20px;
+}
+
+/* -------------------------------- SIDE NAV MENUS ------------------------------ */
 
 header .header-bottom .iconsmore {
    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
@@ -212,11 +217,6 @@ header .header-bottom .iconsmore {
    position: fixed;
 }
 
-header.header-bottom .iconsmore #user #shop #search {
-   width: 20px;
-   height: 20px;
-}
-
 .mostrar-menu {
    left: 0 !important;
 } 
@@ -225,7 +225,7 @@ header.header-bottom .iconsmore #user #shop #search {
    right: 0 !important;
 }
 
-/* banner main */
+/* -------------------------- MAIN -------------------------------- */
 
 main .banner {
    background-image: url(../images/img-main.png);
@@ -241,17 +241,53 @@ main .banner .banner-main {
    left: calc(50% - 111px);
 }
 
-/* main .bannermain button .buttonsobre{
-   font-family: titilliumbold;
-   font-size: 24px;
-   color: #1B1426;
-   background-color: #f9aa01;
-   border-radius: 8px;
-
+.banner .botao-sobre {
    width: 171px;
    height: 40px;
 
    display: flex;
-   align-items: center;
    justify-content: center;
-} */
+   align-items: center;
+
+   background-color: #F9AA01;
+   color: #1B1426;
+   border-radius: 8px;
+
+   text-decoration: none;
+   font-family: titilliumbold;
+   font-size: 24px;
+
+   position: absolute;
+   top: 478px;
+   left: calc(50% - 85.5px);
+}
+/* --------------------------- SECTION JOGOS --------------------------- */
+
+main .jogos {
+   position: relative;
+   
+   height: 590px;
+
+   background-color: #1B1426;
+}
+
+main .jogos .jogosimgs {
+   width: 335.73px;
+   height: 447px;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   align-content: center;
+
+   position: absolute;
+   top: 70px;
+   left: calc(50% - 167.865px)
+}
+
+main .jogos .jogosimg #fifa #csgo {
+   width: 335.73px;
+   height: 189px;
+}
+
