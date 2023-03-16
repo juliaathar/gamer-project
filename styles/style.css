@@ -375,7 +375,6 @@ main .aboutprogamer .progamer .h1gamer {
    header .header-top .contatos {
       display: flex;
       align-items: center;
-      justify-content: space-around;
       
       position: relative;
       top: 10px;
@@ -384,9 +383,22 @@ main .aboutprogamer .progamer .h1gamer {
       height: 25.63px;
    }
 
+   header img#mail {
+      width: 25px;
+      height: 20.7px;
+      margin-left: 54px;
+      margin-right: 24px;
+   }
+   
+   header img#phone {
+      width: 25px;
+      height: 24.65px;
+      margin-right: 24px;
+   }
+
    header .header-top .redes {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
 
       position: relative;
       top: 10px;
@@ -412,7 +424,8 @@ main .aboutprogamer .progamer .h1gamer {
       width: 440px;
       height: 50px;
       padding: 0;
-      flex-direction: row;
+
+      flex-direction: row;                             
       align-items: center;
       background-color: red;
    }
@@ -422,32 +435,42 @@ main .aboutprogamer .progamer .h1gamer {
       font-size: 14px;
    }
 
-   main {
-      margin-top: 0;
-   }
-
+   
    .menu{
       display: flex;
       justify-content: center;
       
       width: 407px;
    } 
-
+   
    header .header-bottom .iconsmore {
-      position: static;
+      position: relative;
+      top: 30px;
+      right: 15px;
+      
       flex-direction: row;
-      width: 180px;
-      height: 50px;
+      justify-content: space-between;
+      
+      width: 129px;
+      height: 24.65px;
+      
       background-color: transparent;
-  }
-    
+      backdrop-filter: none;
+   }
+   
    header .header-bottom #cttphone, 
    header .header-bottom #cttmail {
       display: none;
+   }
+   /* ------------------------------------ MAIN ----------------------------------------------------- */
+
+   main {
+      margin-top: 0;
    }
 
    main .banner {
       width: 100%;
       background-image: url(../images/banner\ desk.png);
    }
+   
 }
