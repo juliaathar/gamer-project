@@ -79,24 +79,19 @@ header .header-bottom nav a {
 
 .header {
    background-color: #1B1426;
-   
+
    height: 60px;
 }
 
 .align-center {
-   height: 100%;
-
    display: flex;
-   flex-direction: row;
-   justify-content: center;
    justify-content: space-between;
-   align-content: center;
    align-items: center;
 }
 
 /* header top */
 
-.header-top {
+header .header-top {
    display: none;
 }
 
@@ -104,7 +99,7 @@ header .header-bottom nav a {
 header .icons {
    width: 100%;
    height: 60px;
-   
+
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -128,36 +123,36 @@ header .header-bottom nav {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   
+
    position: absolute;
    top: 60px;
-   left: -300px;
+   left: -80vw;
    z-index: 20;
    width: 80vw;
    height: 605px;
    padding-bottom: 20px;
-   
+
    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
    backdrop-filter: blur(10px);
-   
+
    transition: left 0.2s;
 }
 
-header .header-bottom nav > a {
+header .header-bottom nav>a {
    color: #ffff;
    font-family: inter;
    font-weight: 400;
    font-size: 15px;
-   
+
    border-bottom: 2px solid #f9aa01;
-   
+
    text-align: center;
    text-decoration: none;
-   
+
    padding: 30px 0;
 }
 
-header .header-bottom nav > a:last-of-type {
+header .header-bottom nav>a:last-of-type {
    border-bottom: none;
 }
 
@@ -206,8 +201,8 @@ header.header-bottom .iconsmore #user #shop #search {
 
 header .header-bottom .iconsmore {
    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
-   backdrop-filter: blur(10px); 
-   
+   backdrop-filter: blur(10px);
+
    position: absolute;
    top: 60px;
    right: -80px;
@@ -219,13 +214,13 @@ header .header-bottom .iconsmore {
    flex-direction: column;
    justify-content: space-around;
    align-items: center;
-   
+
    transition: right 0.2s;
 }
 
 .mostrar-menu {
    left: 0 !important;
-} 
+}
 
 .mostrar-mais {
    right: 0 !important;
@@ -237,12 +232,16 @@ main .banner {
    background-image: url(../images/img-main.png);
    width: 375px;
    height: 606px;
+
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
 }
 
 main .banner .banner-main {
    width: 222px;
    height: 61px;
-   
+
    position: relative;
    left: calc(50% - 111px);
 }
@@ -267,11 +266,12 @@ main .banner .banner-main {
    top: 478px;
    left: calc(50% - 85.5px);
 }
+
 /* --------------------------- SECTION JOGOS --------------------------- */
 
 main .jogos {
    position: relative;
-   
+
    height: 590px;
 
    background-color: #1B1426;
@@ -298,24 +298,24 @@ main .jogos .jogosimg #fifa #csgo {
 }
 
 /* ---------------------------------- SECTION PROGAMER ----------------------------- */
- main .progamer {
+main .progamer {
    width: 100%;
    height: 1535px;
 
    background-color: #F9AA01;
- }
+}
 
- main .progamer #killjoy {
+main .progamer #killjoy {
    width: 314px;
    height: 511px;
- }
+}
 
- main .progamer #jinx {
+main .progamer #jinx {
    width: 322px;
    height: 428px;
- }
+}
 
- main .aboutprogamer .progamer .h1gamer {
+main .aboutprogamer .progamer .h1gamer {
    width: 336px;
    height: 62px;
 
@@ -323,29 +323,28 @@ main .jogos .jogosimg #fifa #csgo {
    flex-direction: column;
    justify-content: center;
    justify-content: space-around;
- }
+}
 
- /* --------------------------------- MEDIA QUERIES -------------------------------------- */
+/* --------------------------------- MEDIA QUERIES -------------------------------------- */
 
- /* tablets */
+/* tablets */
 
- @media screen and (min-width:768px) {
-   
- }
+@media screen and (min-width:768px) {}
 
- /* desktops */
+/* desktops */
 
- @media screen and (min-width:1200px) {
+@media screen and (min-width:1200px) {
    .layout-grid {
       width: 100%;
       max-width: 1200px;
 
-      border: red solid 2px;
+      border: slateblue solid 2px;
    }
 
    header {
       position: static;
       height: 140px;
+      background-color: #1B1426;
    }
 
    header #menu-burguer,
@@ -356,11 +355,99 @@ main .jogos .jogosimg #fifa #csgo {
       display: none;
    }
 
-   header .header-bottom img#logo {
-      width: 200px;
+   header .header-bottom {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      height: 90.7px;
+
+      background-color: #1B1426;
+   }
+
+   header .header-top {
+      display: flex;
+      flex-direction: row;
+
+      height: 49.3px;
+   }
+
+   header .header-top .contatos {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      
+      position: relative;
+      top: 10px;
+
+      width: 407px;
+      height: 25.63px;
+   }
+
+   header .header-top .redes {
+      display: flex;
+      justify-content: space-around;
+
+      position: relative;
+      top: 10px;
+
+      margin-left: 664.01px;
+
+      Width: 117px;
+      Height: 24.65px;
+   }
+
+   header .header-bottom img#logo.logo {
+      background-image: url(../images/logo-desk.png);
+      width: 196px;
+      height: 55.21px;
+
+      position: relative;
+      top: 15px;
+   }
+
+   header .header-bottom nav {
+      position: static;
+   
+      width: 440px;
+      height: 50px;
+      padding: 0;
+      flex-direction: row;
+      align-items: center;
+      background-color: red;
+   }
+
+   header .header-bottom nav > a {
+      border: none;
+      font-size: 14px;
    }
 
    main {
       margin-top: 0;
    }
- }
+
+   .menu{
+      display: flex;
+      justify-content: center;
+      
+      width: 407px;
+   } 
+
+   header .header-bottom .iconsmore {
+      position: static;
+      flex-direction: row;
+      width: 180px;
+      height: 50px;
+      background-color: transparent;
+  }
+    
+   header .header-bottom #cttphone, 
+   header .header-bottom #cttmail {
+      display: none;
+   }
+
+   main .banner {
+      width: 100%;
+      background-image: url(../images/banner\ desk.png);
+   }
+}
