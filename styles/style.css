@@ -152,6 +152,10 @@ header .header-bottom nav>a {
    padding: 30px 0;
 }
 
+header .header-bottom nav>a:hover {
+   background-color: #F9AA01;
+}
+
 header .header-bottom nav>a:last-of-type {
    border-bottom: none;
 }
@@ -338,7 +342,7 @@ main .aboutprogamer .progamer .h1gamer {
       width: 100%;
       max-width: 1200px;
 
-      border: slateblue solid 2px;
+      /* border: slateblue solid 2px; */
    }
 
    header {
@@ -375,7 +379,7 @@ main .aboutprogamer .progamer .h1gamer {
    header .header-top .contatos {
       display: flex;
       align-items: center;
-      
+
       position: relative;
       top: 10px;
 
@@ -389,7 +393,7 @@ main .aboutprogamer .progamer .h1gamer {
       margin-left: 54px;
       margin-right: 24px;
    }
-   
+
    header img#phone {
       width: 25px;
       height: 24.65px;
@@ -420,45 +424,59 @@ main .aboutprogamer .progamer .h1gamer {
 
    header .header-bottom nav {
       position: static;
-   
+
       width: 440px;
       height: 50px;
       padding: 0;
 
-      flex-direction: row;                             
+      position: relative;
+      left: -300px;
+      top: 20px;
+
+      flex-direction: row;
       align-items: center;
-      background-color: red;
    }
+
+   .header-bottom nav .navmenud {
+      position: relative;
+   }
+
+   /* header .header-bottom .nav */
 
    header .header-bottom nav > a {
       border: none;
       font-size: 14px;
    }
 
-   
+   header .header-bottom nav>a:hover {
+      background-color: transparent;
+      color: #F9AA01;
+  }
+
+
    .menu{
       display: flex;
       justify-content: center;
-      
+
       width: 407px;
-   } 
-   
+   }
+
    header .header-bottom .iconsmore {
       position: relative;
       top: 30px;
       right: 15px;
-      
+
       flex-direction: row;
       justify-content: space-between;
-      
+
       width: 129px;
       height: 24.65px;
-      
+
       background-color: transparent;
       backdrop-filter: none;
    }
-   
-   header .header-bottom #cttphone, 
+
+   header .header-bottom #cttphone,
    header .header-bottom #cttmail {
       display: none;
    }
@@ -474,3 +492,25 @@ main .aboutprogamer .progamer .h1gamer {
    }
 
 }
+
+/* ---------------------------------------- JOGOS ---------------------------------------------------- */
+
+main .jogos {
+   height: 500px;
+}
+
+main .jogos .jogosimgs {
+   width: 1200px;
+   height: 313px;
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+
+   position: absolute;
+   top: 70px;
+   left: calc(50% - 600px);
+}
+
+/* ------------------------------ FOOTER ----------------------------- */
