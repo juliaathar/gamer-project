@@ -302,7 +302,7 @@ main .jogos .jogosimg #fifa #csgo {
 }
 
 /* ---------------------------------- SECTION PROGAMER ----------------------------- */
-main .progamer {
+main .aboutprogamer {
    width: 100%;
    height: 1535px;
 
@@ -374,6 +374,7 @@ main .aboutprogamer .progamer .h1gamer {
       flex-direction: row;
 
       height: 49.3px;
+      border-bottom: 2px solid #F9AA01;
    }
 
    header .header-top .contatos {
@@ -491,26 +492,28 @@ main .aboutprogamer .progamer .h1gamer {
       background-image: url(../images/banner\ desk.png);
    }
 
+   
+   /* ---------------------------------------- JOGOS ---------------------------------------------------- */
+   
+   main .jogos {
+      height: 500px;
+   }
+   
+   main .jogos .jogosimgs {
+      width: 1200px;
+      height: 313px;
+      
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      
+      position: absolute;
+      top: 70px;
+      left: calc(50% - 600px);
+   }
+
+   /* -------------------------------- PROGAMER ----------------------------- */
+
+   /* ------------------------------ FOOTER ----------------------------- */
 }
-
-/* ---------------------------------------- JOGOS ---------------------------------------------------- */
-
-main .jogos {
-   height: 500px;
-}
-
-main .jogos .jogosimgs {
-   width: 1200px;
-   height: 313px;
-
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
-
-   position: absolute;
-   top: 70px;
-   left: calc(50% - 600px);
-}
-
-/* ------------------------------ FOOTER ----------------------------- */
