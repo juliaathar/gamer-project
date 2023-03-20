@@ -329,6 +329,99 @@ main .aboutprogamer .progamer .h1gamer {
    justify-content: space-around;
 }
 
+/* -------------------------------------------------- FOOTER ------------------------------------------- */
+
+footer {
+   padding-top: 60px;
+   padding-bottom: 30px;
+   box-shadow: inset 0 30px 60px rgba(0, 0, 0, 1);
+   background-image: url(../images/backgroung_footer.png);
+   background-position: top;
+   background-size: contain;
+}
+
+footer #sobrefooter {
+   width: 100%;
+   height: 304px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+
+footer #sobrefooter > img { width: 110px; }
+
+footer #sobre p {
+   font-family: Quicksand;
+   font-weight: 400;
+   font-size: 14px;
+}
+
+footer #midiasfooter {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+footer .footer-top {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 1530px;
+}
+
+footer .footer-top .titulos-footer h3 {
+   font-family: titillium;
+   font-size: 30px;
+}
+
+footer .footer-top .titulos-footer hr {
+   border: #F9AA01 2px solid;
+   width: 112px;
+}
+
+footer .footer-top .menu-footer {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+footer .menu-footer a {
+   color: #ffff;
+   text-decoration: none;
+   font-family: titilliumbold;
+   font-size: 16px;
+}
+
+footer .menu-footer a:before {
+   content: "\2013";
+   margin-right: 10px;
+   color: #F9AA01;
+}
+
+footer ul {
+   list-style: none;
+   margin-top: 30px;
+}
+
+footer ul li {
+   margin-bottom: 20px;
+   width: 110px;
+}
+
+footer .footer-top #contatosfooter p {
+   color: #ffff;
+   font-family: titilliumbold;
+   font-size: 16px;
+
+   display: flex;
+   flex-direction: column;
+   margin-top: 20px;
+}
+
+footer .footer-top #contatosfooter span {
+   color: #F9AA01;
+}
+
 /* --------------------------------- MEDIA QUERIES -------------------------------------- */
 
 /* tablets */
