@@ -334,6 +334,84 @@ main .aboutprogamer .progamer .h1gamer {
    justify-content: space-around;
 }
 
+main .aboutprogamer h2#h2gamer {
+   margin-top: 84px;
+}
+
+main .aboutprogamer #hrprogamer {
+   border: #1B1426 2px solid;
+
+   margin-top: 50px;
+   margin-bottom: 83px;
+   width: 204px;
+   
+   position: relative;
+   left: 70px;
+}
+
+main .progamer #kill {
+   width: 314px;
+   height: 511px;
+
+   margin-bottom: 130px;
+}
+
+main .progamer .killBox h3#textkill,
+main .progamer .jinxBox h3#textjinx {
+   font-family: titillium;
+   font-size: 18px;
+   color: #ffffff;
+   text-shadow: #C6A5E5 0 0 5px;
+
+   margin-top: 25px;
+   margin-bottom: 19px;
+}
+
+main .progamer .killBox p#pKill,
+main .progamer .jinxBox p#pJinx {
+   font-family: quicksand;
+   font-size: 13px;
+   color: #ffffff;
+
+   text-align: center;
+}
+
+main .progamer #jinx {
+   width: 322px;
+   height: 428px;
+
+   position: relative;
+   bottom: 280px;
+}
+
+ main .progamer .killBox,
+ main .progamer .jinxBox {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+   width: 231px;
+   height: 300px;
+
+   border-radius: 8px;
+   background-image: linear-gradient(to right bottom, rgba(121, 49, 235, 0.2), rgba(47, 7, 109, 0.8));
+   backdrop-filter: blur(15px);
+   border-image-source: linear-gradient(to right bottom, rgba(255, 255, 255, 1), rgba(27, 20, 38, 0));
+ }
+
+ main .progamer .killBox {
+   position: relative;
+   left: 105px;
+   bottom: 510px;
+ }
+
+ main .progamer .jinxBox {
+   position: relative;
+   left: 0px;
+   bottom: 600px;
+ }
+
 /* -------------------------------------------------- FOOTER ------------------------------------------- */
 
 footer {
