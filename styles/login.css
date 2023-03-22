@@ -276,16 +276,36 @@ header .header-bottom .iconsmore {
     z-index: 2;
 }   
 
+main .formBox #formText {
+    font-family: titillium;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-shadow: none;
+}
+
+main .formBox hr {
+    position: relative;
+    left: calc(50% - 45px);
+
+    margin-top: 45px;
+
+    width: 90px;
+    border: #F9AA01 3px solid;
+}
+
 .linha {
     position: relative;
     z-index: 3;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     gap: 5px;
     padding: 5px 10px;
     width: 80%;
     height: 40px;
+
     background-image: linear-gradient(to right, rgba(239, 239, 239, 0.6), rgba(239, 239, 239, 0.1));
     border-radius: 8px;
 }
@@ -293,6 +313,7 @@ header .header-bottom .iconsmore {
 .linha input {
     width: 100%;
     height: 35px;
+
     border: none;
     background-color: transparent;
     outline: none;
@@ -305,6 +326,83 @@ header .header-bottom .iconsmore {
 .linha input::placeholder {
     color: white;
 }
+
+.linha2 {
+    position: relative;
+    z-index: 3;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 5px;
+    padding: 5px 10px;
+    width: 80%;
+    height: 40px;
+
+    margin-top: 31px;
+
+    background-image: linear-gradient(to right, rgba(239, 239, 239, 0.6), rgba(239, 239, 239, 0.1));
+    border-radius: 8px;
+}
+
+.linha2 input {
+    width: 100%;
+    height: 35px;
+
+    border: none;
+    background-color: transparent;
+    outline: none;
+
+    color: white;
+    font-family: titilliumregular;
+    font-size: 16px;
+}
+
+.linha2 input::placeholder {
+    color: white;
+}
+
+
+.inputs {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs #userForm {
+    width: 20px;
+    height: 20px;
+}
+
+.inputs #keyForm {
+    width: 20px;
+    height: 15px;
+}
+
+.login .botao-logar {
+    width: 243px;
+    height: 40px;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    background-color: #F9AA01;
+    color: #1B1426;
+    border-radius: 8px;
+ 
+    text-decoration: none;
+    font-family: titilliumbold;
+    font-size: 24px;
+ 
+    position: absolute;
+    z-index: 3;
+    top: 420px;
+    left: calc(50% - 121.5px);
+ }
 
 /* -------------------------------------------------- FOOTER ------------------------------------------- */
 
