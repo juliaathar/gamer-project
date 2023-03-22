@@ -411,6 +411,42 @@ main .progamer #jinx {
    left: 0px;
    bottom: 600px;
  }
+ /* ------------------------------------------------------------ SECTION NEWS ----------------------------------- */
+
+ .noticias {
+   height: 3675px;
+   width: 100%;
+
+   background-image: url(../images/backgroundnews-mobile.png);
+ }
+
+  .noticias #textNews {
+   color: white;
+
+   font-family:titillium;
+   font-size: 18px;
+   letter-spacing: 0;
+   text-transform: uppercase;
+
+   width: 66px;
+   height: 27px;
+
+   position: relative;
+   left: calc(50% - 33px);
+   top: 50px;
+}
+
+.noticias #hrNews {
+   background-color: #F9AA01;
+
+    border: 1px solid transparent;
+
+    width: 180px;
+
+    position: relative;
+    left: calc(50% - 90px);
+    top: 70px;
+}
 
 /* -------------------------------------------------- FOOTER ------------------------------------------- */
 

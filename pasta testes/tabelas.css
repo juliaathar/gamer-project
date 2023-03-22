@@ -1,0 +1,21 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    border: 1px solid black;
+    width: 50%;
+    margin: 20px auto 0;
+}
+
+table th,
+table td {
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+table tbody td {
+    border-right: 2px green solid;
+}

@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Gamer</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <title>Cadastro de Equipes</title>
+    <link rel="stylesheet" href="styles/cadastro-equipes.css">
 </head>
 
 <body>
-
     <!-- cabecalho -->
     <header>
         <section class="header">
@@ -82,72 +81,54 @@
 
     </header>
 
-    <!-- corpo principal -->
     <main>
 
-        <section class="banner">
-            <div class="banner-main">
-                <h1>Liga Gamer</h1>
-                <a href="" class="botao-sobre">Sobre</a>
-            </div>
-        </section>
+        <section class="cadastro-equipes">
 
-        <section class="jogos">
+            <form action="" class="login">
 
-            <div class=" jogosimgs layout-grid">
-                <img id="fifa" src="../projeto-gamer/images/fifagroup-img.png" alt="">
-                <img id="csgo" src="../projeto-gamer/images/csgogroup-img.png" alt="">
-            </div>
-
-        </section>
-
-        <section class="aboutprogamer">
-            <div class="progamer layout-grid">
-
-                <div class="h1gamer">
-                    <h2 id="h2gamer">Entre para o time progamer</h2>
+                <div class="formBox">
+                    <h1 id="formText">cadastro de equipes</h1>
+                    <hr>
                 </div>
 
-                <hr id="hrprogamer">
+                <div class="inputs">
 
-                <img src="../projeto-gamer/images/kiljoy.png" alt="" id="kill">
+                    <div class="linha">
+                        <input type="email" placeholder="Digite o Id da sua equipe:">
+                    </div>
 
-                <article class="killBox">
+                    <div class="linha2">
+                        <input type="number" placeholder="Digite o nome da sua equipe:">
+                    </div>
 
-                        <img src="../projeto-gamer/images/progamer-joystick.png" alt="">
-                        <h3 id="textkill">20 JOGOS DIFERENTES</h3>
+                    <div class="linha2">
+                        <label for="imagem-equipe"></label>
+                        <input type="file" id="imagem-equipe" placeholder="Imagem da Equipe">
+                    </div>
 
-                    <p id="pKill">São mais de 20 jogos em 2 plataformas dispóniveis para que você possa aprender
-                        melhores técnicas.</p>
-                </article>
+                    <a href="" class="botao-logar">Cadastro</a>
 
-                <img src="../projeto-gamer/images/jinx.png" alt="" id="jinx">
-
-                <article class="jinxBox">
-
-                        <img src="../projeto-gamer/images/progamer-gamer.png" alt="">
-                        <h3 id="textjinx">53 PROFESSORES</h3>
-
-                    <p id="pJinx">Temos 53 Proplayers no nosso time para ensinar todas as estratégias, você vai
-                        aprender do básico ao avançado. Tempo de treinamento, descanso, equipamentos. </p>
-                </article>
-            </div>
-        </section>
-
-        <section class="noticias">
-            <div class="news layout-grid">
-                <div class="tituloNews">
-                    <h2 id="textNews">Notícias</h2>
-                    <hr id="hrNews">
                 </div>
+            </form>
 
-            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>nome</th>
+                        <th>foto</th>
+                        <th></th>
+                    </tr>
+                </thead>
+            </table>
+
         </section>
 
     </main>
 
-    <!-- rodape -->
-    <footer>
+       <!-- rodape -->
+       <footer>
         <div class="layout-grid footer-top">
             <div id="sobrefooter">
                 <img src="../projeto-gamer/images/logofooter.png" alt="">
@@ -246,7 +227,6 @@
         <div class="layout-grid footer-bottom">
             <p id="rights">©Copyright2023-GamerJogosDigitais</p>
         </div>
-
 
     </footer>
 
