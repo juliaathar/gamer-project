@@ -930,5 +930,67 @@ footer #rights {
 
    /* -------------------------------- PROGAMER ----------------------------- */
 
+main .aboutprogamer {
+   height: 1000px;
+}
+
+.aboutprogamer .h1gamer {
+   width: 746px;
+   height: 61px;
+
+   position: relative;
+   left: calc(50% - 373px);
+}
+
+.aboutprogamer #h2gamer {
+   width: 746px;
+   height: 61px;
+
+   font-size: 40px;
+}
+
+.aboutprogamer hr#hrprogamer {
+   margin-top: 70px;
+
+   position: relative;
+   left: calc(50% - 100px); 
+}
+
+.aboutprogamer img#kill {
+   background-image: url(../images/killjoy-desk.png);
+   width: 425px;
+   height: 692px;
+
+   position: relative;  
+}
+
+.aboutprogamer img#jinx {
+   background-image: url(../images/jinx-desk.png);
+   width: 521px;
+   height: 692px;
+
+   position: relative;
+   bottom: 1258px;
+   left: 684px;
+}
+
+main .progamer .killBox {
+   width: 360px;
+   height: 440px;
+
+   position: relative;
+   bottom: 634px;
+   left: 245px;
+}
+
+main .progamer .jinxBox {
+   width: 360px;
+   height: 440px;
+
+   position: relative;
+   bottom: 1770px;
+   left: 619px;
+}
+
    /* ------------------------------ FOOTER ----------------------------- */
 }
