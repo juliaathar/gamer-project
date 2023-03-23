@@ -208,7 +208,7 @@ header .header-bottom .iconsmore {
     background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
     backdrop-filter: blur(10px);
 
-    position: absolute;
+    position: fixed;
     top: 60px;
     right: -80px;
     flex-direction: column;

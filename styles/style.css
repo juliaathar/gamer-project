@@ -418,6 +418,9 @@ main .progamer #jinx {
    width: 100%;
 
    background-image: url(../images/backgroundnews-mobile.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
  }
 
   .noticias #textNews {

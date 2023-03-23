@@ -208,7 +208,7 @@ header .header-bottom .iconsmore {
     background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
     backdrop-filter: blur(10px);
 
-    position: absolute;
+    position: fixed;
     top: 60px;
     right: -80px;
     flex-direction: column;
@@ -412,6 +412,97 @@ main .formBox hr {
     top: 217px;
     left: calc(50% - 121.5px);
  }
+
+ /* -------------------------------------------- TABLE ----------------------------------------------------- */
+
+ table {
+    width: 100%;
+
+    position: absolute;
+    bottom: -550px;
+    z-index: 2;
+}
+
+ thead,
+ tbody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+ thead tr {
+    margin-bottom: 30px;
+    border-bottom: 3px solid #F9AA01;
+}
+
+ table thead th {
+     width: 20%;
+     height: 50px;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+    font-family: titillium;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #F9AA01;
+    text-shadow: #000000 0 0 7px;
+
+}
+
+ table tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ table tbody tr {
+    height: 70px;
+    margin-bottom: 20px;     
+
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background:
+        linear-gradient(to right bottom, rgba(27, 20, 38, .6), rgba(60, 3, 65, .38)) padding-box,
+        linear-gradient(90deg, rgba(255, 255, 255, .6), rgba(255, 255, 255, .1)) border-box;
+    backdrop-filter: blur(4px);
+
+
+}
+
+table td {
+    font-family: titilliumbold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    width: 100%;
+    height: 38px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-right: 3px solid #F9AA01;
+}
+
+ table td:last-of-type {
+    border: none;
+}
+
+table td img.play {
+    width: 47px;
+    height: 32PX;
+}
+
+ table td img.trash {
+    width: 15px;
+    height: 19PX;
+}
+
 
 /* -------------------------------------------------- FOOTER ------------------------------------------- */
 
