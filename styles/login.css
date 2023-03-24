@@ -274,7 +274,7 @@ header .header-bottom .iconsmore {
 
     position: absolute;
     z-index: 2;
-}   
+}
 
 main .formBox #formText {
     font-family: titillium;
@@ -385,24 +385,24 @@ main .formBox hr {
 .login .botao-logar {
     width: 243px;
     height: 40px;
- 
+
     display: flex;
     justify-content: center;
     align-items: center;
- 
+
     background-color: #F9AA01;
     color: #1B1426;
     border-radius: 8px;
- 
+
     text-decoration: none;
     font-family: titilliumbold;
     font-size: 24px;
- 
+
     position: absolute;
     z-index: 3;
     top: 420px;
     left: calc(50% - 121.5px);
- }
+}
 
 /* -------------------------------------------------- FOOTER ------------------------------------------- */
 
@@ -552,4 +552,301 @@ footer #rights {
     align-items: center;
 
     margin-top: 161px;
+}
+
+/* -------------------------------------------------------------- MEDIA QUERIES ----------------------------------------------------- */
+
+/* desktops */
+
+@media screen and (min-width:1200px) {
+
+    .layout-grid {
+        width: 100%;
+        max-width: 1200px;
+
+        /* border: slateblue solid 2px; */
+    }
+
+    header {
+        position: static;
+        height: 140px;
+        background-color: #1B1426;
+    }
+
+    header #menu-burguer,
+    header #pontos,
+    header .header-bottom nav #phone,
+    header .header-bottom nav #mail,
+    header .header-bottom nav .midias {
+        display: none;
+    }
+
+    header .header-bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        height: 90.7px;
+
+        background-color: #1B1426;
+    }
+
+    header .header-top {
+        display: flex;
+        flex-direction: row;
+
+        height: 49.3px;
+        border-bottom: 2px solid #F9AA01;
+    }
+
+    header .header-top .contatos {
+        display: flex;
+        align-items: center;
+
+        position: relative;
+        top: 10px;
+
+        width: 407px;
+        height: 25.63px;
+    }
+
+    header img#mail {
+        width: 25px;
+        height: 20.7px;
+        margin-left: 54px;
+        margin-right: 24px;
+    }
+
+    header img#phone {
+        width: 25px;
+        height: 24.65px;
+        margin-right: 24px;
+    }
+
+    header .header-top .redes {
+        display: flex;
+        justify-content: space-between;
+
+        position: relative;
+        top: 10px;
+
+        margin-left: 664.01px;
+
+        Width: 117px;
+        Height: 24.65px;
+    }
+
+    header .header-bottom img#logo.logo {
+        background-image: url(../images/logo-desk.png);
+        width: 196px;
+        height: 55.21px;
+
+        position: relative;
+        top: 15px;
+    }
+
+    header .header-bottom nav {
+        position: static;
+
+        width: 440px;
+        height: 50px;
+        padding: 0;
+
+        position: relative;
+        left: -300px;
+        top: 20px;
+
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .header-bottom nav .navmenud {
+        position: relative;
+    }
+
+    /* header .header-bottom .nav */
+
+    header .header-bottom nav>a {
+        border: none;
+        font-size: 14px;
+    }
+
+    header .header-bottom nav>a:hover {
+        background-color: transparent;
+        color: #F9AA01;
+    }
+
+
+    .menu {
+        display: flex;
+        justify-content: center;
+
+        width: 407px;
+    }
+
+    header .header-bottom .iconsmore {
+        position: relative;
+        top: 30px;
+        right: 15px;
+
+        flex-direction: row;
+        justify-content: space-between;
+
+        width: 129px;
+        height: 24.65px;
+
+        background-color: transparent;
+        backdrop-filter: none;
+    }
+
+    header .header-bottom #cttphone,
+    header .header-bottom #cttmail {
+        display: none;
+    }
+
+    /* ------------------------------------ MAIN ----------------------------------------------------- */
+
+    main {
+        margin-top: 0;
+        height: fit-content;
+    }
+
+    .login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        height: 90vh;
+
+        margin: 0 auto;
+
+        background-image: url(../images/banner-login-desk.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        position: relative;
+        z-index: 0;
+    }
+
+    .login::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+        background-color: none;
+        backdrop-filter: blur(4px);
+        color: white;
+    
+    }
+
+    .formBox {
+        width: 800px;
+        height: 520px;
+    
+        background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.6), rgba(60, 3, 65, 0.38));
+        border-radius: 8px;
+    
+        position: absolute;
+        z-index: 2;
+    }
+    
+    main .formBox #formText {
+        font-family: titillium;
+        font-size: 40px;
+        text-transform: uppercase;
+        text-shadow: none;
+    }
+    
+    main .formBox hr {
+        position: relative;
+        top: 62px;
+        left: calc(50% - 45px);
+    
+        margin-top: 45px;
+    
+        width: 90px;
+        border: #F9AA01 2px solid;
+    }
+
+    .linha {
+        width: 50%;
+    }
+    .linha2 {
+        width: 50%;
+    }
+
+    .login .botao-logar {
+        position: absolute;
+        top: 539px;
+    }
+
+    /* ------------------------------ FOOTER ----------------------------- */
+    footer {
+        height: 520px;
+        background-image: url(../images/footer-desk.png);
+    }
+
+    footer .footer-top {
+        height: 100%;
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer #sobrefooter {
+        width: 294px;
+        height: 257px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    footer .footer-bottom {
+        display: none;
+    }
+
+    footer img#imgFooter {
+        width: 196px;
+        height: 56px;
+    }
+
+    footer #pFooter {
+        font-family: quicksand;
+        font-size: 16px;
+    }
+
+    footer #links-uteis {
+        width: 148px;
+        height: 257px;
+    }
+
+    footer #contatosfooter {
+        width: 289px;
+        height: 257px;
+    }
+
+    footer #newsletter {
+        width: 285px;
+    }
+
+    footer img#backtotop {
+        position: relative;
+        top: 195px;
+        left: 1400px;
+    }
+
+    footer #rights {
+        position: relative;
+        top: 55px;
+    }
+
+    footer .rights {
+        position: relative;
+        top: -300px;
+    }
+
 }
