@@ -344,7 +344,7 @@ main .aboutprogamer #hrprogamer {
    margin-top: 50px;
    margin-bottom: 83px;
    width: 204px;
-   
+
    position: relative;
    left: 70px;
 }
@@ -384,8 +384,8 @@ main .progamer #jinx {
    bottom: 280px;
 }
 
- main .progamer .killBox,
- main .progamer .jinxBox {
+main .progamer .killBox,
+main .progamer .jinxBox {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -398,22 +398,23 @@ main .progamer #jinx {
    background-image: linear-gradient(to right bottom, rgba(121, 49, 235, 0.2), rgba(47, 7, 109, 0.8));
    backdrop-filter: blur(15px);
    border-image-source: linear-gradient(to right bottom, rgba(255, 255, 255, 1), rgba(27, 20, 38, 0));
- }
+}
 
- main .progamer .killBox {
+main .progamer .killBox {
    position: relative;
    left: 105px;
    bottom: 510px;
- }
+}
 
- main .progamer .jinxBox {
+main .progamer .jinxBox {
    position: relative;
    left: 0px;
    bottom: 600px;
- }
- /* ------------------------------------------------------------ SECTION NEWS ----------------------------------- */
+}
 
- .noticias {
+/* ------------------------------------------------------------ SECTION NEWS ----------------------------------- */
+
+.noticias {
    height: 3675px;
    width: 100%;
 
@@ -421,12 +422,12 @@ main .progamer #jinx {
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
- }
+}
 
-  .noticias #textNews {
+.noticias #textNews {
    color: white;
 
-   font-family:titillium;
+   font-family: titillium;
    font-size: 18px;
    letter-spacing: 0;
    text-transform: uppercase;
@@ -442,13 +443,13 @@ main .progamer #jinx {
 .noticias #hrNews {
    background-color: #F9AA01;
 
-    border: 1px solid transparent;
+   border: 1px solid transparent;
 
-    width: 180px;
+   width: 180px;
 
-    position: relative;
-    left: calc(50% - 90px);
-    top: 70px;
+   position: relative;
+   left: calc(50% - 90px);
+   top: 70px;
 }
 
 .noticias #newsText {
@@ -617,7 +618,9 @@ footer #sobrefooter {
    align-items: center;
 }
 
-footer #sobrefooter > img { width: 110px; }
+footer #sobrefooter>img {
+   width: 110px;
+}
 
 footer #sobre p {
    font-family: Quicksand;
@@ -700,9 +703,9 @@ footer #newsletter button {
 
 footer #newsletter .frm-news input {
    background-color: transparent;
-   background-image: linear-gradient(to right bottom, rgba(239, 239, 239, .6), rgba(239,239,239, .1));
+   background-image: linear-gradient(to right bottom, rgba(239, 239, 239, .6), rgba(239, 239, 239, .1));
    backdrop-filter: blur(6px);
-   border:  1px solid #ffff;
+   border: 1px solid #ffff;
    color: #ffff;
    padding: 5px 10px;
    font-family: titilliumregular;
@@ -732,7 +735,7 @@ footer img#backtotop {
    left: 305px;
 }
 
-footer #rights {  
+footer #rights {
    font-family: titilliumregular;
    font-size: 16px;
    color: #ffff;
@@ -859,7 +862,7 @@ footer #rights {
 
    /* header .header-bottom .nav */
 
-   header .header-bottom nav > a {
+   header .header-bottom nav>a {
       border: none;
       font-size: 14px;
    }
@@ -867,10 +870,10 @@ footer #rights {
    header .header-bottom nav>a:hover {
       background-color: transparent;
       color: #F9AA01;
-  }
+   }
 
 
-   .menu{
+   .menu {
       display: flex;
       justify-content: center;
 
@@ -896,6 +899,7 @@ footer #rights {
    header .header-bottom #cttmail {
       display: none;
    }
+
    /* ------------------------------------ MAIN ----------------------------------------------------- */
 
    main {
@@ -907,22 +911,22 @@ footer #rights {
       background-image: url(../images/banner\ desk.png);
    }
 
-   
+
    /* ---------------------------------------- JOGOS ---------------------------------------------------- */
-   
+
    main .jogos {
       height: 500px;
    }
-   
+
    main .jogos .jogosimgs {
       width: 1200px;
       height: 313px;
-      
+
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-      
+
       position: absolute;
       top: 70px;
       left: calc(50% - 600px);
@@ -930,67 +934,190 @@ footer #rights {
 
    /* -------------------------------- PROGAMER ----------------------------- */
 
-main .aboutprogamer {
-   height: 1000px;
-}
+   main .aboutprogamer {
+      height: 1000px;
+   }
 
-.aboutprogamer .h1gamer {
-   width: 746px;
-   height: 61px;
+   .aboutprogamer .h1gamer {
+      width: 746px;
+      height: 61px;
 
-   position: relative;
-   left: calc(50% - 373px);
-}
+      position: relative;
+      left: calc(50% - 373px);
+   }
 
-.aboutprogamer #h2gamer {
-   width: 746px;
-   height: 61px;
+   .aboutprogamer #h2gamer {
+      width: 746px;
+      height: 61px;
 
-   font-size: 40px;
-}
+      font-size: 40px;
+   }
 
-.aboutprogamer hr#hrprogamer {
-   margin-top: 70px;
+   .aboutprogamer hr#hrprogamer {
+      margin-top: 70px;
 
-   position: relative;
-   left: calc(50% - 100px); 
-}
+      position: relative;
+      left: calc(50% - 100px);
+   }
 
-.aboutprogamer img#kill {
-   background-image: url(../images/killjoy-desk.png);
-   width: 425px;
-   height: 692px;
+   .aboutprogamer img#kill {
+      background-image: url(../images/killjoy-desk.png);
+      width: 425px;
+      height: 692px;
 
-   position: relative;  
-}
+      position: relative;
+   }
 
-.aboutprogamer img#jinx {
-   background-image: url(../images/jinx-desk.png);
-   width: 521px;
-   height: 692px;
+   .aboutprogamer img#jinx {
+      background-image: url(../images/jinx-desk.png);
+      width: 521px;
+      height: 692px;
 
-   position: relative;
-   bottom: 1258px;
-   left: 684px;
-}
+      position: relative;
+      bottom: 1258px;
+      left: 684px;
+   }
 
-main .progamer .killBox {
-   width: 360px;
-   height: 440px;
+   main .progamer .killBox {
+      width: 360px;
+      height: 440px;
 
-   position: relative;
-   bottom: 634px;
-   left: 245px;
-}
+      position: relative;
+      bottom: 634px;
+      left: 245px;
+   }
 
-main .progamer .jinxBox {
-   width: 360px;
-   height: 440px;
+   main .progamer .jinxBox {
+      width: 360px;
+      height: 440px;
 
-   position: relative;
-   bottom: 1770px;
-   left: 619px;
-}
+      position: relative;
+      bottom: 1770px;
+      left: 619px;
+   }
+
+   /* ------------------------------------------------------- NEWS ----------------------------------------- */
+
+   main .noticias {
+      width: 100%;
+      height: 1175px;
+
+      background-image: url(../images/background-news-desk.png),
+         linear-gradient(to right bottom, rgba(45, 24, 77, 0), rgba(27, 20, 38, 1));
+   }
+
+   main .noticias #textNews {
+      font-size: 40px;
+
+      position: relative;
+      top: 90px;
+      left: calc(50% - 84px);
+   }
+
+   main .noticias #hrNews {
+      position: relative;
+      top: 170px;
+   }
+
+   main .articlesNews,
+   main .articlesNews2 {
+      display: flex;
+      justify-content: space-between;
+
+      width: 1200px;
+   }
+
+   main .articlesNews {
+      position: relative;
+      top: 247px;
+   }
+
+   main .articlesNews2 {
+      position: relative;
+      top: 320px;
+   }
+
+   main .articlesNews .boxNews,
+   main .articlesNews .boxNews2,
+   main .articlesNews .boxNews3,
+   main .articlesNews .boxNews4,
+   main .articlesNews2 .boxNews5,
+   main .articlesNews2 .boxNews6,
+   main .articlesNews2 .boxNews7,
+   main .articlesNews2 .boxNews8 {
+      width: 285px;
+      height: 387px;
+
+      position: relative;
+      top: 0px;
+      left: 0px;
+   }
+
+   main .news img#boxImg {
+      width: 285px;
+      height: 174px;
+   }
 
    /* ------------------------------ FOOTER ----------------------------- */
+   footer {
+      height: 520px;
+      background-image: url(../images/footer-desk.png);
+   }
+
+   footer .footer-top {
+      height: 100%;
+
+      display: flex;
+      flex-direction: row;
+   }
+
+   footer #sobrefooter {
+      width: 294px;
+      height: 257px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: start;
+   }
+
+   footer img#imgFooter {
+      width: 196px;
+      height: 56px;
+   }
+
+   footer #pFooter {
+      font-family: quicksand;
+      font-size: 16px;
+   }
+
+   footer #links-uteis {
+      width: 148px;
+      height: 257px;
+   }
+
+   footer #contatosfooter {
+      width: 289px;
+      height: 257px;
+   }
+
+   footer #newsletter {
+      width: 285px;
+   }
+
+   footer img#backtotop {
+      position: relative;
+      top: 195px;
+      left: 1400px;
+   }
+
+   footer #rights {
+      position: relative;
+      top: 55px;
+   }
+
+   footer .rights {
+      position: relative;
+      top: -300px;
+   }
+
 }
